@@ -28,23 +28,25 @@ hr {
 
 A:hover { COLOR: rgb(236, 110, 178); font-weight: none }
 
+/* carousel */
 
 .carousel-caption{
   background-color: rgba(68, 64, 57, 0.6);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
 }
 
 /* text selection colour design */
 
 ::-moz-selection {
-      color: #3e3332;
-      background: #eea625;
+      color: white;
+      background: black;
     }
 
 ::selection {
-      color: #3e3332;
-      background: #eea625;
+      color: white;
+      background: black;
     }
 
 /* image icons for social media design */
@@ -54,12 +56,12 @@ A:hover { COLOR: rgb(236, 110, 178); font-weight: none }
   }
 
 .socialMediaIcon:hover {
-    background: rgba(236, 110, 178, 0.3)
+    background: rgba(50, 90, 240, 0.3)
   }
 
 /* button colour design */
 
-.btn-primary {
+/* .btn-primary {
     color: #fff;
     background-color: #d36e2d;
     border-color: #efdab9;
@@ -69,7 +71,7 @@ A:hover { COLOR: rgb(236, 110, 178); font-weight: none }
     color: #fff;
     background-color: #ffc05a;
     border-color: #efdab9;
-}
+} */
 
 
 /* adding stroke to the text */
@@ -103,15 +105,15 @@ font-family: 'Montserrat-black', sans-serif, arial;
   background-color: #FEFCEC;
 }
 
-.addBackgroundColorLightBrown{
-  background-color: #45433f;
+.addBackgroundColorLightYellow2{
+  background-color: #FEFCEC;
   border-radius: 20px;
   border-style: solid;
   border-color: #efdab9;
 }
 
-.addBackgroundColorYellow{
-  background-color: #FFD152;
+.addBackgroundColorPink{
+  background-color: #cf74a0;
   border-style: solid;
   border-color: #efdab9;
 }
@@ -137,11 +139,11 @@ font-family: 'Montserrat-black', sans-serif, arial;
 }
 
 .fontColorLight2{
-    color: #FFD152;
+    color: #EDAFF7;
 }
 
 .fontColorLight3{
-    color: #cf74a0;
+    color: #ffbd9b;
 }
           /* adding border */
 .addBrownBorder{
